@@ -14,8 +14,23 @@ The documentation needs to be readable even when there is no connection to the i
 
 ## TODO
 
-- [ ] - describe installation
+- [x] - add css framework
+- [x] - describe installation
+- [ ] - make scripts for generating pdfs
 
+## installing on windows
+
+For windows you'll need to install pandoc, this software can be found at https://pandoc.org/installing.html#windows.
+
+If you want to be able to generate pdfs, please also install the following latex engine: https://miktex.org/download
+
+## installing on debian / ubuntu
+
+Run the following command:
+
+```shell
+sudo apt install pandoc texlive texlive-latex-extra
+```
 
 
 
