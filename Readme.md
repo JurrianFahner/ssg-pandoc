@@ -14,9 +14,6 @@ The documentation needs to be readable even when there is no connection to the i
 
 ## TODO
 
-- [x] - create site  
-- [ ] - add config
-- [ ] - add template
 - [ ] - describe installation
 
 

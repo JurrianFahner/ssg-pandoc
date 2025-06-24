@@ -5,4 +5,4 @@ Get-ChildItem -Path .\content -Recurse -File | ForEach-Object {
     (Get-Content $_.FullName)
     "`r`n"
     "`r`n"
-} | pandoc.exe -o ".\dist\index.html"
+} | pandoc.exe -o ".\dist\index.html" -d ".\config\defaults.yaml"

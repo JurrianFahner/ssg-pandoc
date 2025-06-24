@@ -1,0 +1,17 @@
+from: markdown-markdown_in_html_blocks+table_captions
+toc: true
+toc-depth: 5
+number-sections: true
+wrap: preserve
+standalone: true
+top-level-division: chapter
+section-divs: true
+pdf-engine: lualatex
+pdf-engine-opt:
+  - '-shell-escape'
+  - '-output-directory=.'
+template: template/site-template.html
+metadata-files:
+  - ./config/metadata.yaml
+resource-path:
+  - ..
